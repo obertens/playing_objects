@@ -16,7 +16,7 @@ for (var i=0; i<users.length; i++){
 //4. ¿Cómo harías para imprimir el nombre de los mayores de edad?
 
 for (var i=0; i<users.length; i++){
-    if (users[i].age>18){
+    if (users[i].age>=18){
         console.log(users[i].name)
     }
 }
